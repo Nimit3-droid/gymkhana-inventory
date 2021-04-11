@@ -1,4 +1,6 @@
-# Gymkhana Inventory ![](https://img.shields.io/badge/Status-Active%20development-blue) ![](https://img.shields.io/badge/Django-v3.1.7-orange) ![](https://img.shields.io/badge/Python-v3.8.5-green)
+# Gymkhana Inventory 
+<a href="https://devlup-labs.github.io"><img src="https://img.shields.io/badge/Developed%20under-Winter%20of%20Code%2C%20DevlUp%20Labs-blue"/></a> ![](https://img.shields.io/badge/Status-Active%20development-blue) ![](https://img.shields.io/badge/Django-v3.1.7-orange) ![](https://img.shields.io/badge/Python-v3.8.5-green)
+
 WebApp to manage Gymkhana Inventory
 
 To make contributions to this repo, check out [contribution.md](contribution.md)
@@ -12,15 +14,17 @@ To make contributions to this repo, check out [contribution.md](contribution.md)
 `python -m venv myenv`<br/>
 `myenv\Scripts\activate` (for windows)<br/>
 `source env/bin/activate` (for mac)
-5. Go to backend folder and install all the required libraries in terminal.<br/>
+5. copy the .env.example file to .env<br/>
+`cp .env.example .env`<br/>
+6. Go to backend folder and install all the required libraries in terminal.<br/>
 `cd backend`<br/>
 `pip install -r requirements.txt`
-6. Now migrate the models.<br/>
+7. Now migrate the models.<br/>
 `python manage.py makemigrations`<br/>
 `python manage.py migrate`
-7. Create the superuser(Admin).<br/>
+8. Create the superuser(Admin).<br/>
 `python manage.py createsuperuser`
-8. Type in following command to run project locally now at http://127.0.0.1:8000/<br/>
+9. Type in following command to run project locally now at http://127.0.0.1:8000/<br/>
 `python manage.py runserver`
 
 ## Built with
